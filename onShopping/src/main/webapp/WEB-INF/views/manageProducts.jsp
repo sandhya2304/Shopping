@@ -94,7 +94,7 @@
 						</div>
 						
 						<div class="form-group">
-							<label class="control-label col-md-4" for="file">Upload a file</label>
+							<label class="control-label col-md-4" for="file">Select an Image: </label>
 							<div class="col-md-8">
 								<f:input type="file" path="file" id="file"  class="form-control"/>
 								<f:errors path="file" cssClass="help-block" element="em"/> 

@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.sandy.onShopping.util.FileUploadUtility;
+import com.sandy.onShopping.validator.ProductValidator;
 import com.sandy.shopbackend.dao.*;
 import com.sandy.shopbackend.dto.Category;
 import com.sandy.shopbackend.dto.Product;
@@ -67,6 +68,9 @@ public class ManagementController
 	public String handleProductSubmission(@Valid @ModelAttribute("product")Product mproduct,
 			BindingResult results,Model model,HttpServletRequest request)
 	{
+		
+		new ProductValidator().validate(mproduct, results);
+		
 		//check if there any errors
 
 		if(results.hasErrors())
