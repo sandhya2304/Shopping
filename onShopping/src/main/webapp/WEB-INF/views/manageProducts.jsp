@@ -146,4 +146,58 @@
    
    </div>
  
+ 
+ <hr/>
+ 
+ <div class="row"> 
+   
+      <div class="col-xs-12">
+         <h1>Available Products</h1>
+         <hr/>
+      </div>
+ 
+      <div class="col-xs-12">
+           <div style="overflow: auto;">
+           
+              <!-- product table for admin -->
+         
+			<table id="adminproductsTable" class="table table-condensed table-bordered">
+							
+				<thead>					
+					<tr>					
+						<th>Id</th>
+						<th>&#160;</th>
+						<th>Name</th>
+						<th>Brand</thBrand>
+						<th>Qty. Avail</th>
+						<th>Unit Price</th>
+						<th>Activate</th>				
+						<th>Edit</th>
+					</tr>				
+				</thead>
+				
+				
+				
+				<tfoot>
+					<tr>					
+						<th>Id</th>
+						<th>&#160;</th>
+						<th>Name</th>
+						
+						<th>Qty. Avail</th>
+						<th>Unit Price</th>
+						<th>Activate</th>				
+						<th>Edit</th>
+					</tr>									
+				</tfoot>
+				
+							
+			</table>
+           
+   
+            </div>
+ 
+      </div>
+ 
+ </div>
 </div>
