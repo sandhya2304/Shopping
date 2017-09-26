@@ -21,7 +21,7 @@ public class ProductTestCase
 	public static void init()
 	{
 		context=new AnnotationConfigApplicationContext();
-		context.scan("com.sandy.Shopbackend");
+		context.scan("com.sandy.shopbackend");
 		context.refresh();
 		
 		productDao=(ProductDao) context.getBean("productDao");
