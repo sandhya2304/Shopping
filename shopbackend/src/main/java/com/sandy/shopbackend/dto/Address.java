@@ -53,6 +53,21 @@ public class Address implements Serializable {
 	public void setUser(User user) {
 		this.user = user;
 	}
+	
+	/*private int userId;
+	
+	
+	
+	public int getUserId() {
+		return userId;
+	}
+	public void setUserId(int userId) {
+		this.userId = userId;
+	}*/
+	
+	
+	
+	
 	public boolean isShipping() {
 		return shipping;
 	}
