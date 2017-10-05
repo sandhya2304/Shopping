@@ -162,9 +162,12 @@
       </div>
  
       <div class="col-xs-12">
-           <div style="overflow: auto;">
-           
-              <!-- product table for admin -->
+      
+       <div class="container-fluid">
+              
+                 <div class="table-responsive">
+                 
+                   <!-- product table for admin -->
          
 			<table id="adminproductsTable" class="table table-condensed table-bordered">
 							
@@ -200,7 +203,13 @@
 			</table>
            
    
-            </div>
+                 
+                 </div>
+                 
+        </div>         
+          
+            
+        
  
       </div>
  
