@@ -14,7 +14,6 @@ import com.sandy.shopbackend.dto.*;
 public class UserTestCase
 {
 	
-	
 
 	private static AnnotationConfigApplicationContext context;
 	private static UserDao userDao;
